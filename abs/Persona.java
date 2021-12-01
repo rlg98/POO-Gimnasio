@@ -105,4 +105,7 @@ public abstract class Persona implements Imprimible {
    public void setDomicilio(String pDomicilio) {
       this.domicilio = pDomicilio;
    }
+   public String toString() {
+      return String.format("%s %s %s", this.nombre, this.paterno, this.materno);
+   }
 }

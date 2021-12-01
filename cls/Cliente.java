@@ -50,4 +50,30 @@ public class Cliente extends Persona {
       this.formaPago = pFormaPago;
       this.paquete   = pPaquete;
    }
+
+   @Override
+   public String toStringCompleto() {
+      return String.format(
+            "Datos de Cliente\n"
+          + "Id            : %d\n"
+          + "Nombre        : %s\n"
+          + "Paterno       : %s\n"
+          + "Materno       : %s\n"
+          + "Edad          : %d\n"
+          + "Teléfono      : %d\n"
+          + "Domicilio     : %s\n"
+          + "Forma de Pago : %s\n"
+          + "Paquete       : %s\n",
+             this.id,
+             this.nombre,
+             this.paterno,
+             this.materno,
+             this.edad,
+             this.telefono,
+             this.domicilio,
+             this.formaPago,
+             this.paquete
+            );
+      
+   }
 }
