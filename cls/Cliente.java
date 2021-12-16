@@ -50,7 +50,14 @@ public class Cliente extends Persona {
       this.formaPago = pFormaPago;
       this.paquete   = pPaquete;
    }
-
+   @Override
+   public String toString() {
+      return String.format("%d, %s, %s, %s, %d, %d, %s, %s, %s", this.id, this.nombre, this.paterno, this.materno, this.edad, this.telefono, this.domicilio, this.formaPago, this.paquete);
+   }
+   public String toStringArchivo() {
+      return String.format("| %-8d | %-15s | %-15s | %-15s | %-8d | %10d | %-100s | %-10s | %-32s |\n",
+            this.id, this.nombre, this.paterno, this.materno, this.edad, this.telefono, this.domicilio.replaceAll("\n", "!"), this.formaPago, this.paquete.toStringPaquete());
+   }
    @Override
    public String toStringCompleto() {
       return String.format(

@@ -47,15 +47,15 @@ public abstract class VentanaGUI extends JFrame implements ActionListener {
 	}
 
 	protected JPanel central() {
-		JPanel pnl = new JPanel(new GridLayout(0, 2));
-		this.contenedor.add(pnl, BorderLayout.CENTER);
-		return pnl;
+		this.central = new JPanel(new GridLayout(0, 2));
+		this.contenedor.add(this.central, BorderLayout.CENTER);
+		return this.central;
 	}
 
 	protected JPanel botones() {
-		JPanel pnl = new JPanel(new GridLayout(1, 0));
-		this.contenedor.add(pnl, BorderLayout.SOUTH);
-		return pnl;
+		this.botones = new JPanel(new GridLayout(1, 0));
+		this.contenedor.add(this.botones, BorderLayout.SOUTH);
+		return this.botones;
 	}
 
 	protected JButton boton(String pTexto) {

@@ -1,0 +1,4 @@
+| 1        | Raúl            | Lara            | García          | 23       | 9931173247 | Calle Principal S/N!Colonia Centro                                                                   | TARJETA    | ( 4 ( Profesional     (    400 ( |
+| 2        | Ernesto         | Sanchez         | García          | 25       | 9931173247 | Calle Principal S/N!Colonia Centro                                                                   | EFECTIVO   | ( 2 ( Intermedio      (    200 ( |
+| 3        | Natanael        | Sanchez         | De la Cruz      | 21       | 9933455631 | Ocuiltzapotlan                                                                                       | EFECTIVO   | ( 3 ( SemiProfesional (    300 ( |
+| 4        | Pancha          | Sanchez         | De la Cruz      | 14       | 9931233456 | Villahermosa Centro                                                                                  | EFECTIVO   | ( 2 ( Intermedio      (    200 ( |
